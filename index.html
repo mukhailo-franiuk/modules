@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home work modules</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <div class="modal-window">
+        <div class="modal-message">
+            <p class="text-modal"></p>
+            <button class="close-modal">Закрити вікно</button>
+        </div>
+    </div>
+    <div class="contain">
+        <div class="one-block">
+            <div class="money-bank">
+                <h3>Гроші</h3>
+                <p><b class="b-m">10000</b> <span> грн</span></p>
+            </div>
+            <div class="beer-bank">
+                <h3>Пиво</h3>
+                <p><b class="b-b">100</b> <span> шт</span></p>
+            </div>
+            <div class="wine-bank">
+                <h3>Вино</h3>
+                <p><b class="b-w">50</b> <span> шт</span></p>
+            </div>
+            <div class="pepsi-bank">
+                <h3>Пепсі</h3>
+                <p><b class="b-p">80</b> <span> шт</span></p>
+            </div>
+        </div>
+        <div class="two-block">
+            <form class="choice-form">
+                <label for="">Кількість</label>
+                <p><input type="number" name="" id="inp-amount"></p>
+                <label for="check-01">
+                    <input type="radio" name="radio" id="check-01" value="Пиво" > Пиво
+                </label>
+                <label for="check-02">
+                    <input type="radio" name="radio" id="check-02" value="Вино"> Вино
+                </label>
+                <label for="check-03">
+                    <input type="radio" name="radio" id="check-03" value="Пепсі"> Пепсі
+                </label>
+                <p><input type="button" value="Добавити" id="add"></p>
+            </form>
+            <div id="all-shop"></div>
+            <p><button class="sell">Купити</button></p>
+        </div>
+        <div class="three-block">
+            <div class="info-shop">
+            </div>
+        </div>
+    </div>
+    <script src="./module.js" type="module"></script>
+    <script src="./script.js" type="module"></script>
+</body>
+</html>
